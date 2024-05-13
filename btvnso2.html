@@ -1,100 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Linh</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-  }
-  .full {
-    overflow: hidden;
-    background-color: #FFF3CD;
-    font-family: Arial, sans-serif;
-    margin: auto;
-    width: 194px;
-  }
-
-  .full a {
-    float: left;
-    font-size: 16px;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    border-right: 1px solid #ddd;
-  }
-
-  .full a:hover {
-    background-color: #ddd;
-  }
-
-  .mot {
-    float: left;
-    overflow: hidden;
-  }
-
-  .mot .hai {
-    font-size: 16px;  
-    border: none;
-    outline: none;
-    color: black;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-    border-right: 1px solid #ddd;
-  }
-  
-  .full a:hover, .mot:hover .hai {
-    background-color: #ddd;
-  }
-
-  .ba {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    
-  }
-
-  .ba a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-
-  .ba a:hover {
-    background-color: #ddd;
-  }
-
-  .mot:hover .ba {
-    display: block;
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>btvn2</title>
 </head>
+<style>
+    .header{
+         background:rgb(234, 171, 161);
+         display: flex;
+         justify-content: space-around;
+         padding: 15px 20px;
+         font-family: Arial, Helvetica, sans-serif;
+    }
+    .tong1{
+         display: flex;
+         justify-content: space-between; 
+    }
+    .sub-menu-logo{
+        background: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        padding: 15px 20px;
+    }
+    .sub-menu-brandname{
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        font-weight: bold;
+    }  
+    .noidung{
+        display: flex;
+        justify-content: center;
+    }   
+    .sub-menu-noidung{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 15px 20px;
+    } 
+    .sub-menu-button{
+        background: rgb(141, 224, 153);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 30px;
+        border-radius: 500px;      
+    }                                 
+</style>
 <body>
-
-<div class="full">
-  <a href="#home">Linh</a>
-  <div class="mot">
-    <button class="hai">Lười 
-    </button>
-    <div class="ba">
-      <a href="#">Nguyễn</a>
-      <a href="#">Khánh</a>
-      <a href="#">Linh</a>
-      <a href="#">17B5</a>
+    <div class="header">
+        <div class="tong1">
+        <div class="sub-menu-logo">logo</div>
+        <div class="sub-menu-brandame">Brand name</div>
     </div>
-  </div> 
-  <a href="#products">Lắm</a>
-</div>
-
+    <div class="noidung">
+        <div class="sub-menu-noidung">Home</div>
+        <div class="sub-menu-button"></div>
+        <div class="sub-menu-noidung">your name</div>
+    </div>
+    </div>
 </body>
 </html>
