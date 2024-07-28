@@ -1,0 +1,36 @@
+body{
+    background-image: url(https://img.freepik.com/premium-photo/lake-with-light-it-mountains-background_901003-7064.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+h3, nav{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0px auto;
+}
+p,nav{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    margin: 0px auto;
+}
+.button{
+    text-align: center;
+}
+.button-center{
+    width: 300px;
+    height: 20px;
+    background: #e4543e ;
+    color: white;
+    margin: 0px auto;
+    padding: 5px;
+    font-family:sans-serif;
+    position: absolute;
+    left: 450px;
+    top: 270px;
+    border-style: solid;
+    border-color:#f35d46;
+    border-radius: 3px;
+}
